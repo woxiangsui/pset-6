@@ -3,7 +3,7 @@
   margin: 0px;
 }
 
-.header, .listinput {
+.content {
   background-color: lightblue;
   text-align: center;
 }
@@ -14,16 +14,9 @@
   padding: 20px;
 }
 
-.listinput {
+.userinput {
   text-align: center;
-  padding-bottom: 20px;
-}
-
-button {
-  height: 42px;
-  width: 47px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
+  padding-bottom: 10px;
 }
 
 input {
@@ -31,6 +24,7 @@ input {
   width: 500px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin-right: 5px;
 }
 
 ul {
