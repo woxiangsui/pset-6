@@ -34,9 +34,34 @@ button {
   border-radius: 8px;
 }
 
+button:hover {
+  background-color: #bbb;
+}
+
 ul {
   list-style-type: none;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
   text-align: center;
+  padding: 0;
+  margin: 0;
+}
+li {
+  height: 20px;
+  background: #eee;
+  font-size: 20px;
+}
+li.checked {
+  text-decoration: line-through;
+}
+li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
 }
